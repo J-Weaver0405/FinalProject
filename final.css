@@ -1,8 +1,13 @@
-#title{
-    color: gold;
-    
-}
+/* body,html{
+    height: 100%;
+} */
 
-.header{
-    background-color: firebrick;
+.jumbotron text-center{
+    background-image: linear-gradient(rgba(0,0,0,0.5), url("https://i0.wp.com/ioshacker.com/wp-content/uploads/2015/05/Jarvis-logo.jpg"
+    ));
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }

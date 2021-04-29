@@ -1,0 +1,73 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    font-family: 'Lucida Sans';
+}
+.background1, .background2, .background3{
+    position: relative;
+    opacity: 0.6;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background1{
+    background-image: url("https://cdn.wallpapersafari.com/60/12/yEV4iS.jpg");
+    min-height: 100%;
+}
+
+.background2{
+    background-image: url("https://th.bing.com/th/id/R086fd42d1796cd3dc8e7c49aecfd4e19?rik=mO62vV0Zwv3xlA&riu=http%3a%2f%2fscreencrush.com%2ffiles%2f2013%2f02%2firon-man-3-armor.jpg%3fw%3d600%26h%3d0%26zc%3d1%26s%3d0%26a%3dt%26q%3d89&ehk=2%2f8QcuTmG0scr6V5Eg%2bf%2bUZXvovxzrxgj42qvsq3fbs%3d&risl=&pid=ImgRaw");
+    min-height: 350px;
+}
+
+.background3{
+    background-image: url("https://th.bing.com/th/id/OIP.DdtVWzYIpWSDnhoaPV6QXAHaEo?pid=ImgDet&rs=1");
+    min-height: 350px;
+}
+
+.buttondiv{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+
+.button{
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 2px solid whitesmoke;
+    color: red;
+    padding: 16px;
+    font-size: 22px;
+    letter-spacing: 8px;
+}
+.button:hover{
+    background-color: black;
+    transition: 1s;
+    opacity: 0.5;
+}
+
+.heading{
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-align: center;
+    color: red;
+}
+
+.welcome{
+    color: gold;
+    background-color: black;
+    text-align: center;
+    padding: 60px 50px;
+}
+
+.about{
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-align: center;
+    color: red;
+    background-color: gray;
+}
